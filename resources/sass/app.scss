@@ -1,0 +1,62 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.create_btn{
+    font-size: 1.4em;
+    font-weight: bold;
+    padding: 15px 30px;
+    border-radius: 10px;
+    margin: 10px 0 10px;
+}
+
+.finish_btn {
+    background-color: aquamarine;
+}
+
+.begin_btn {
+    background-color: aqua;
+}
+
+.error_log {
+    color: red;
+    font-size: 1.2em;
+}
+
+.create_nav{
+    display: flex;
+    margin: 20px 0;
+
+    
+    .create_nav_items {
+
+        .nav_first {
+            border-left: 1px solid black;
+        }
+
+        p {
+            margin: 0;
+            padding: 0;
+
+            
+
+            a {
+                padding: 10px 10px;
+                text-align: center;
+                display: block;
+                background-color: aquamarine;
+                border-right: 1px solid black;
+                border-top: 1px solid black;
+                border-bottom: 1px solid black;
+
+                
+            }
+            
+        }
+    }
+}
